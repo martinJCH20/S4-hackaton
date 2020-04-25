@@ -1,0 +1,40 @@
+.cont-left{
+    float: left;
+}
+.cont-right{
+    float: right;
+    padding-left: 10px;
+}
+
+.img-right{
+    width: 50%;
+    height: 50%;
+}
+
+.App-header {
+    background-color: white;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(12px);
+    color: black;
+}
+
+.primary-button{
+    width: 100%;
+    height: 5%;
+	padding: 5px;
+	background-color: silver;
+	margin: 0 auto;
+	border-radius: 20px;
+}
+
+.foot-form{
+    text-align: center;
+}
+
+.table-resumen{
+    font-size: 15px;
+}
