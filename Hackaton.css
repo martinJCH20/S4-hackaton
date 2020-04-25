@@ -1,14 +1,21 @@
+.cont-general{
+    border: 1px solid #369;
+    border-radius: 10px;
+}
+
 .cont-left{
+    width: 50%;
     float: left;
 }
 .cont-right{
+    width: 50%;
     float: right;
-    padding-left: 10px;
 }
 
 .img-right{
     width: 50%;
-    height: 50%;
+    float: right;
+    margin: 1px;
 }
 
 .App-header {
@@ -37,4 +44,8 @@
 
 .table-resumen{
     font-size: 15px;
+}
+
+.form-register{
+    float: right;
 }

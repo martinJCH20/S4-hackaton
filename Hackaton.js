@@ -74,7 +74,7 @@ class App extends Component {
                 <div className='cont-general'>
                 <div className='cont-left'>
                 {!submitted ? (
-                <form onSubmit={this.onSubmitMessage}>
+                <form className='form-register' onSubmit={this.onSubmitMessage}>
                        <DatosUsuario title={'Ingrese sus datos para el registro'} 
                        usuario={this.state.usuario} 
                        userChange={this.haUserChange}
